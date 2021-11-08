@@ -1,0 +1,34 @@
+.custom-tab {
+    border: none !important;
+    background-color: transparent !important;
+    width: fit-content !important;
+    font-size: 12px;
+    white-space: nowrap;
+    user-select: none;
+}
+
+
+.custom-tab:hover {
+    color: #005AFF;
+}
+
+#tools_menu > .custom-tab {
+    padding: 10px 0 !important;
+    margin-left: 27px;
+}
+
+.custom-tab--selected {
+    background-color: #f2f3f5 !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-weight: 500;
+}
+
+.b-border {
+    border-bottom: 2px solid #01153b !important;
+}
+
+.lr-border {
+    border-left: 1px solid #e3e5ea;
+    border-right: 1px solid #e3e5ea;
+}

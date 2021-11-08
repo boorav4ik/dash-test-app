@@ -1,0 +1,107 @@
+.app-header {
+    background-color: #f2f3f5;
+    height: fit-content;
+    border-bottom: 1px solid #e3e5ea;
+}
+
+.app-header .app-header--title {
+    font-size: 44px;
+    padding-left: 10px;
+}
+
+.anabar-logo {
+    padding: 0 20px;
+    margin: 0;
+    flex: 0 0 100px;
+    font: caption;
+    user-select: none;
+}
+
+.width-fit-content {
+    width: fit-content;
+}
+
+.gradient-background {
+    background: linear-gradient(5deg, palegreen 0%, #f2f3f5 40%);
+}
+
+#tools_menu_selector {
+    flex: 0 0 250px;
+}
+
+.tools_menu_selector > .Select-control > .Select-multi-value-wrapper::after {
+    content: url(chevron-expand.svg);
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.tools_widget_dropdown > .Select-control > .Select-multi-value-wrapper::after {
+    content: url(chevron-down.svg);
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.Select-arrow-zone {
+    display: none !important;
+}
+
+.tools_menu_selector > .Select-control {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.tools_menu_selector > .Select-control > div > div.Select-input {
+    background-color: transparent;
+}
+
+.settings-btn {
+    flex: 0 0 45px;
+    border: none;
+    background-color: transparent;
+}
+
+#header_menu-parent {
+    flex: 1;
+}
+
+.tool-box {
+    width: max(25%, 540px);
+    padding: 28px;
+}
+
+.filled-button {
+    color: white;
+    background-color: #00143c;
+    border: #00143c;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 8px;
+}
+
+.filled-button:hover {
+    background-color: #005aff;
+    border: #005aff;
+}
+
+.outlined-button {
+    color: #00143c;
+    border-radius: 5px;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 8px;
+    border: 1px solid gray;
+}
+
+.outlined-button:hover {
+    color: white;
+    background-color: #005aff;
+}
+
+.Select-control > div > .Select-input {
+    height: 32px;
+}
